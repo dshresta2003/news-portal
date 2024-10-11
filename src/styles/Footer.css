@@ -1,0 +1,35 @@
+
+/* Footer styling */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+  width: 100%;
+  z-index: 1000;
+  font-size: 25px;
+  margin-top: auto; /* Ensure footer sticks to the bottom when there is little content */
+}
+
+.footer-categories {
+  margin-bottom: 1rem;
+}
+
+.footer-categories ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-categories li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+.footer-categories a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer p {
+  margin: 0.5rem 0;
+}

@@ -1,0 +1,76 @@
+/* Navbar container */
+.navbar {
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 2rem;
+  position: relative; /* To allow absolute positioning for centering */
+}
+
+/* Left-side logo section */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+/* Logo styling */
+.logo {
+  width: 50px;
+  height: auto;
+  margin-right: 1rem;
+}
+
+/* Title (optional, you can adjust it or remove it) */
+.navbar h1 {
+  color: white;
+  margin: 0;
+}
+
+/* Centered navigation links */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Styling for each navigation item */
+.navbar-links li {
+  display: inline;
+}
+
+/* Styling for the links */
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+/* Hover effect for links */
+.navbar-links a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+/* Right-side section for signup and subscribe */
+.navbar-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Specific button styles */
+.navbar-actions a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  border-radius: 5px;
+}
+
+.navbar-actions a:hover {
+  background-color: #0056b3;
+}
